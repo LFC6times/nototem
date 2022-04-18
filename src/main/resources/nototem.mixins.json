@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ml.ikwid.nototem.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "MixinClientPlayNetworkHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

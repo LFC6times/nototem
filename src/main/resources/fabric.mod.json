@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nototem",
+  "version": "${version}",
+  "name": "Nototem",
+  "description": "Removes the totem overlay when you use it",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {
+    "website": "iknowwhatimdoing.ml"
+  },
+  "license": "MIT",
+  "icon": "assets/nototem/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ml.ikwid.nototem.Nototem"
+    ]
+  },
+  "mixins": [
+    "nototem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+  }
+}
